@@ -1,0 +1,114 @@
+/* Base Body Settings */
+body {
+  font-family: 'Times New Roman';
+  background: linear-gradient(135deg, rgba(32, 56, 100, 0.85), rgba(89, 47, 121, 0.85)); /* Deep blue to royal purple gradient */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Glassy Panel Effect */
+.glass {
+  background: rgba(161, 130, 130, 0.329);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 2rem;
+  margin: 1.5rem auto;
+  max-width: 800px;
+  min-height: 600px; /* This increases the height */
+  
+}
+.logo {
+  width: 50px;      /* Adjust size as needed */
+  height: 50px;
+  display: block;
+}
+
+.logo-container {
+  text-align: center; /* Or left/right depending on your layout */
+  margin-bottom: 2rem;
+}
+
+
+/* Header */
+header {
+  text-align: center;
+  padding: 3rem 1rem 1rem;
+  font-family: 'Playfair Display', serif;
+}
+
+header h1 {
+  font-size: 5rem;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-style: italic;
+  color: #ddd;
+  font-size: 2.1rem;
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 2rem;
+}
+
+nav ul li a,
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+nav a:hover {
+  color: #f0e68c; /* Light goldish color on hover */
+}
+
+/* Intro Section */
+.intro {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ddd;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+
