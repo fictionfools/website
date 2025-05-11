@@ -1,7 +1,7 @@
 /* Base Body Settings */
 body {
-  font-family: 'Times New Roman';
-  background: linear-gradient(135deg, rgba(32, 56, 100, 0.85), rgba(89, 47, 121, 0.85)); /* Deep blue to royal purple gradient */
+  font-family: 'Times New Roman', serif;
+  background: linear-gradient(135deg, rgba(32, 56, 100, 0.85), rgba(89, 47, 121, 0.85));
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -21,38 +21,39 @@ body {
   padding: 2rem;
   margin: 1rem auto;
   max-width: 800px;
-  min-height: 600px; /* This increases the height */
-  
+  min-height: 600px;
 }
+
+/* Logo */
 .logo {
-  width: 50px;      /* Adjust size as needed */
+  width: 50px;
   height: 50px;
   display: block;
+  margin: 0 auto;
 }
 
 .logo-container {
-  text-align: center; /* Or left/right depending on your layout */
-  margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
-
 
 /* Header */
 header {
   text-align: center;
-  padding: 3rem 1rem 1rem;
+  padding: 2rem 1rem 1rem;
   font-family: 'Playfair Display', serif;
 }
 
 header h1 {
-  font-size: 2rem;
+  font-size: 1.75rem; /* Adjusted from 2rem */
   color: #fff;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 header p {
   font-style: italic;
   color: #ddd;
-  font-size: 2.1rem;
+  font-size: 1.25rem; /* Adjusted from 2.1rem */
 }
 
 /* Navigation */
@@ -66,6 +67,8 @@ nav ul {
   list-style: none;
   display: inline-flex;
   gap: 2rem;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li a,
@@ -73,7 +76,7 @@ nav a {
   text-decoration: none;
   color: #fff;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.95rem; /* Slightly reduced */
   transition: color 0.3s ease;
   position: relative;
 }
@@ -100,15 +103,15 @@ nav a:hover {
 /* Intro Section */
 .intro {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.1rem; /* Adjusted from 1.5rem */
   color: #ddd;
+  padding: 1rem 0;
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 2rem 1rem;
-  font-size: 1rem;
+  font-size: 0.9rem; /* Slightly smaller */
   color: #ccc;
 }
-
