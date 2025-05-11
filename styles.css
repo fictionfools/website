@@ -19,7 +19,7 @@ body {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   padding: 2rem;
-  margin: 1.5rem auto;
+  margin: 1rem auto;
   max-width: 800px;
   min-height: 600px; /* This increases the height */
   
@@ -44,7 +44,7 @@ header {
 }
 
 header h1 {
-  font-size: 5rem;
+  font-size: 2rem;
   color: #fff;
   letter-spacing: 1px;
 }
@@ -73,7 +73,7 @@ nav a {
   text-decoration: none;
   color: #fff;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1rem;
   transition: color 0.3s ease;
   position: relative;
 }
